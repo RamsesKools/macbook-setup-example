@@ -1,0 +1,20 @@
+# GitHub
+# Only needed if you clone over SSH — the default flow here uses gh auth instead.
+Host github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+
+# Example: a server you SSH into (home server, VPS)
+# Key: ~/.ssh/id_ed25519_my_server
+Host my-server
+    HostName 192.0.2.10
+    User youruser
+    IdentityFile ~/.ssh/id_ed25519_my_server
+
+# Example: a work git host over SSH (Azure DevOps shown; it requires RSA)
+# Key: ~/.ssh/id_rsa_work — used by clone-workspace.sh in ssh mode
+Host my-git-server
+    HostName ssh.dev.azure.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_work
+    IdentitiesOnly yes

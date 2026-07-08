@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# .macos — macOS system preferences.
+# Run via fresh.sh or manually: source ~/.dotfiles/macos/.macos
+# A logout or restart is required for some changes to take effect.
+
+# Dark mode
+defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"

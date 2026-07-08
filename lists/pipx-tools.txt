@@ -1,0 +1,9 @@
+# pipx tools, installed by scripts/pipx-install.sh.
+# Full-line and inline # comments are ignored — comment an item out to skip it.
+
+# Python project tooling
+poetry      # dependency management for projects not yet on uv
+pre-commit  # git hook runner
+
+# SQL
+sqlfluff    # SQL linter and formatter

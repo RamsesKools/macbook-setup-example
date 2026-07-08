@@ -1,0 +1,9 @@
+# Personal GitHub repos, cloned with `clone-workspace.sh github`.
+# Format: one org/repo per line. Full-line and inline # comments are ignored.
+#
+# These are a few of my own public repos, listed just as an example —
+# replace them with the repos that are relevant for you.
+RamsesKools/my-blog  # this setup is documented on that blog
+RamsesKools/babyname-swiper
+RamsesKools/dwh-lineage-graph-generator
+RamsesKools/opaprikkie-simulator

@@ -1,0 +1,11 @@
+# Work repos on a git host without a CLI like gh, cloned with `clone-workspace.sh ssh`.
+# Format: <ssh-clone-url>  <dest-folder-name> (tab or space separated).
+#
+# In real life these would live on your company's git host, cloned through the
+# host alias defined in ssh/config (Host my-git-server), e.g.:
+#   git@my-git-server:v3/acme-corp/Platform/data-pipeline  data-pipeline
+# As a working stand-in, here are some open-source Azure example repos on GitHub —
+# replace them with the repos that are relevant for you.
+git@github.com:Azure-Samples/modern-data-warehouse-dataops.git  modern-data-warehouse-dataops
+git@github.com:Azure-Samples/azure-search-openai-demo.git  azure-search-openai-demo
+git@github.com:Azure/azure-quickstart-templates.git  azure-quickstart-templates

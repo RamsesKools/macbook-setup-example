@@ -1,0 +1,11 @@
+# npm global packages, installed by scripts/npm-global-packages.sh.
+# Full-line and inline # comments are ignored — comment an item out to skip it.
+
+# JavaScript tooling
+npm-check-updates  # bump package.json dependencies to latest
+
+# Infrastructure
+aws-cdk            # AWS CDK CLI
+
+# Markdown
+@tobilu/qmd
