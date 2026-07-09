@@ -161,6 +161,15 @@ External keyboards with Home and End keys don't behave as expected on macOS: the
 I started using LinearMouse because macOS wouldn't let me disable pointer acceleration, and years of point-and-click games (osu!, Counter-Strike, League of Legends) taught me to aim with a mouse without acceleration.
 macOS can disable acceleration natively these days (since a few years), but its mouse customization is still lacking, so LinearMouse stays.
 
+## Architecture and scalability
+
+As this repo grows, two tools might simplify config management:
+
+- **GNU Stow**: A symlink farm manager that mirrors repo structure to `~`, eliminating manual symlinking code
+- **XDG Base Directory Spec**: A standard that centralizes dotfiles in `~/.config/`, `~/.local/share/`, etc., keeping `~` clean
+
+See [DOTFILES_ARCHITECTURE.md](DOTFILES_ARCHITECTURE.md) for a detailed exploration of how these tools can help scale the repo while keeping your home directory organized.
+
 ## Keeping this up to date
 
 When you install something new or change a setting:
